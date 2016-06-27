@@ -1,0 +1,104 @@
+.container-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-orange {
+    background-color: #e65c00;
+    color: #838487;
+    height: 95px;
+}
+
+.navbar-orange .navbar-toggle {
+    border-color: transparent;
+    color: #fff;
+}
+
+.navbar-orange .navbar-nav > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-orange .navbar-nav > li > a:hover, .navbar-orange .navbar-nav > li > a:focus
+{
+    color:#000;
+    background-color: #ff944d;
+}
+
+.navbar-orange .icon-bar {
+    background-color: #fff;
+    height: 4px;
+}
+
+.navbar-orange-items {
+    margin-left: 35%;
+    margin-top: 45px;
+}
+
+.navbar-black {
+    background-color: #424242;
+    border-color: #424242;
+}
+
+.navbar-black .navbar-nav > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-black-items {
+    margin-right: 22%;
+}
+
+.navbar-black-bottom {
+    background-color: #424242;
+    border-color: #000066;
+    height: 5px;
+    margin-top: 95px;   
+}
+
+.navbar-black .navbar-toggle {
+    border-color: transparent;
+    color: #838487;
+}
+
+.navbar-black .icon-bar {
+    background-color: #838487;
+    height: 4px;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;  
+    left: 15px;
+    height: 40px;
+    margin-left: 20%;
+    float:left;
+}
+
+.navbar-toggle {
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+    
+@media (min-width: 768px) {
+    .logo {
+        height: auto; /*or whatever height you want it*/
+
+    }
+    .navbar-orange {
+        margin-bottom: 0px;
+    }
+    .navbar-orange >p {
+        max-width: 500px;
+    }
+
+}
+
+.container-body {
+    position: relative;
+    margin-top: 135px;
+    margin-left: 20%;
+    width: 60%;
+}

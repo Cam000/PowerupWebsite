@@ -98,7 +98,8 @@ html,body {
 }
 
 .navbar-orange-items {
-    margin-left: 35%;
+    position:relative;
+    margin-left: 0%;
     margin-top: 45px;
 }
 

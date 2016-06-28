@@ -1,8 +1,17 @@
+.container-body {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 20%;
+    width: 60%;
+    padding-top: 35px;
+    z-index: 3;
+}
 
 .container-fixed {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 5;
 }
 
 .navbar-orange {
@@ -102,10 +111,3 @@
 
 }
 
-.container-body {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 20%;
-    width: 60%;
-    padding-top: 35px;
-}
